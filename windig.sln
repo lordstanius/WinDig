@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "windig", "windig.vcxproj", "{0056E5B4-6DC6-4FE8-A325-D3CC659EE017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0056E5B4-6DC6-4FE8-A325-D3CC659EE017}.Debug|x86.ActiveCfg = Debug|Win32
+		{0056E5B4-6DC6-4FE8-A325-D3CC659EE017}.Debug|x86.Build.0 = Debug|Win32
+		{0056E5B4-6DC6-4FE8-A325-D3CC659EE017}.Release|x86.ActiveCfg = Release|Win32
+		{0056E5B4-6DC6-4FE8-A325-D3CC659EE017}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1CB3899-9892-44F0-A67C-68FE24FE639B}
+	EndGlobalSection
+EndGlobal
