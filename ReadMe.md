@@ -1,6 +1,8 @@
 # Digger (for Windows)
 Classic game from Windmill Software (1983) remastered by Andrew Jenner and improved by Petr Abdulin and others, updated to build with VS2017 and run on Windows.
 
+<img src="https://github.com/lordstanius/WinDig/blob/master/digger.png" width="320"></a>
+
 #### Notes on implementation (by Pert Abdulin)
 1. Symbol is a 24x24 (HxW) pixel square (in 640x400 mode pixels).
 For 320x200 mode it is actually a 12x12 square. 
