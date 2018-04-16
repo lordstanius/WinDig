@@ -1,5 +1,5 @@
 # Digger (for Windows)
-Classic game by Windmill Software (1983) remastered by Andrew Jenner and improved by Petr Abdulin and others, updated to build with VS2017 and run on Windows.
+Classic game by Windmill Software (1983) remastered by Andrew Jenner, ported to Windows by Tim Draper and improved by Petr Abdulin and others, updated to build with VS2017 and run on Windows.
 
 <img src="https://github.com/lordstanius/WinDig/blob/master/digger.png" width="320"></a>
 
