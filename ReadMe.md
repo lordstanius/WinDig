@@ -3,7 +3,7 @@ Classic game by Windmill Software (1983) remastered by Andrew Jenner and improve
 
 <img src="https://github.com/lordstanius/WinDig/blob/master/digger.png" width="320"></a>
 
-#### Notes on implementation (by Pert Abdulin)
+#### Notes on implementation (by Petr Abdulin)
 1. Symbol is a 24x24 (HxW) pixel square (in 640x400 mode pixels).
 For 320x200 mode it is actually a 12x12 square. 
 It uses rather complicated storage for it's mask.
