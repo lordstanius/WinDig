@@ -219,8 +219,6 @@ sbyte g_LevelsData[MAX_LEVELS][MHEIGHT][MWIDTH] =
 	"HHHHHHHHHHHHHHH"}
 };
 
-FILE *dbgLog;
-
 /// <summary>
 /// Gets a level symbol.
 /// </summary>
@@ -261,8 +259,6 @@ void GameCycle()
 
 	// ? flash player number screen
 	bool flashplayer = FALSE;
-
-    dbgLog = fopen("digger.log", "a");
 
 	show_game_menu();
 
@@ -528,8 +524,6 @@ void GameCycle()
 			flashplayer = g_IsLevelNotDrawn = TRUE;
 		}
 	} // while (getalllives() != 0 && !g_IsGameCycleEnd && !g_IsTimeout) 
-
-    fclose(dbgLog);
 }
 
 void GameEngineInitialize()
