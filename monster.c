@@ -14,6 +14,7 @@ for more details: http://www.gnu.org/licenses/gpl.html
 */
 
 #include <stdlib.h>
+#include <stdio.h>
 #include "def.h"
 #include "Types.h"
 #include "monster.h"
@@ -48,6 +49,7 @@ struct monster
 } mondat[MONSTERS];
 
 static short nextmonster = 0;
+extern FILE *dbgLog;
 
 /// <summary> The total monsters on level. </summary>
 static short g_TotalMonstersOnLevel = 0;
@@ -164,7 +166,8 @@ void domonsters()
 	{
 		if (mondat[i].flag)
 		{
-			if (mondat[i].hnt > 10 - GetLevelDifficultyModifier(g_GameData[g_CurrentPlayer].level))
+            //fprintf(dbgLog, "Monster%d (%d, %d)\n", i, mondat[i].x, mondat[i].y); //!!DEBUG
+            if (mondat[i].hnt > 10 - GetLevelDifficultyModifier(g_GameData[g_CurrentPlayer].level))
 			{
 				if (mondat[i].nob)
 				{
